@@ -152,7 +152,7 @@ const SignUpForm = ({ onShowList }) => {
                         </div>
                         {errors.confirmPassword && <p className="text-red-500 text-sm">{errors.confirmPassword.message}</p>}
 
-                        <div className="flex items-center">
+                        <div className="flex items-center ">
                             <Controller
                                 name="termsAccepted"
                                 control={control}
