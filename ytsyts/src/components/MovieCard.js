@@ -1,4 +1,4 @@
-// movie vanne prop linxa
+// movie vanne prop linxa, receives one movie object as a prop
 export default function MovieCard({ movie }) {
   const cover = movie.large_cover_image || movie.medium_cover_image || movie.small_cover_image; // movie poster select garna lai, fallback 
   const torrents = movie.torrents || []; // movie ko torrents array linxa ani if xaina vaye empty array assign gardinxa
