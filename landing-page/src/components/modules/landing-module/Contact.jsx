@@ -16,6 +16,8 @@ export default function Contact() {
                     {contactUsButton.label}<i className="fa-solid fa-arrow-right ml-2"></i>
                 </Button>
             </div>
+
+            <p className="my-8 text-slate-500 text-sm">Setup in minutes • Enterprise support included</p>
         </section>
     );
 }
