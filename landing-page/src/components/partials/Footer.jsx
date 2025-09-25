@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
 
             <div className="mx-auto max-w-screen-xl px-4 py-6 text-sm text-slate-400 grid grid-cols-1 md:grid-cols-3 gap-4">
-                <span>© 2025 Xylochat. All rights reserved.</span>
+                <span className='inline-flex items-center'>© 2025 Xylochat. All rights reserved.</span>
 
                 <span className="inline-flex items-center gap-2 justify-center w-full md:text-center">
                     Product of
@@ -56,7 +56,7 @@ export default function Footer() {
                     KtmBees
                 </span>
 
-                <span className="flex justify-center md:justify-end">
+                <span className="flex justify-center items-center md:justify-end">
                     <a><img src="/src/assets/linkedin.png" alt="LinkedIn" className='h-6 w-auto' /></a>
                 </span>
             </div>
